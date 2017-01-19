@@ -1,5 +1,7 @@
 ---
 - hosts: all
+  vars:
+  - aaa=123
   tasks:
   - name: PrintSomething
-    debug: msg=[var]
+    debug: var=aaa
