@@ -1,7 +1,7 @@
 ---
 - hosts: all
   vars:
-  - aaa: 123
+  - aaa2: "{{aaa|default('11')}}"
   tasks:
   - name: PrintSomething
-    debug: var=aaa
+    debug: var=aaa2
