@@ -1,0 +1,9 @@
+---
+- hosts: all
+  vars:
+  - aaa2: "{{aaa|default('123')}}"
+  tasks:
+  - name: PrintSomething
+    debug: var=aaa2
+- include: groupA.yml
+- include: groupB.yml
