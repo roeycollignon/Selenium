@@ -1,5 +1,0 @@
----
-- hosts: all
-  tasks:
-  - name: PrintSomething
-    debug: msg=A
