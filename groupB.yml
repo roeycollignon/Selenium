@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: alfred
   vars:
   - aaa: "groupB"
   tasks:
