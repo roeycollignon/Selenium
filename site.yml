@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: t
   vars:
   - aaa2: "{{aaa|default('123')}}"
   tasks:
