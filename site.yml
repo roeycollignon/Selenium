@@ -5,5 +5,7 @@
   tasks:
   - name: PrintSomething
     debug: var=aaa2
+  - pause:
+     minutes: 5
 - include: groupA.yml
 - include: groupB.yml
