@@ -1,7 +1,11 @@
 ---
 - hosts: all
   vars:
-  - aaa2: "{{aaa|default('11')}}"
+  - aaa2: "{{aaa|default('AA')}}"
+  - bbb2: "{{bbb|default('BB')}}"
+  - ccc2: "{{ccc|default('CC')}}"
   tasks:
   - name: PrintSomething
     debug: var=aaa2
+    debug: var=bbb2
+    debug: var=ccc2
