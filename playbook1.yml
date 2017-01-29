@@ -7,5 +7,5 @@
   tasks:
   - name: PrintSomething
     debug: var=aaa2
-    debug: var=bbb2
-    debug: var=ccc2
+    debug: var1=bbb2
+    debug: var2=ccc2
