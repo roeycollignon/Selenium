@@ -1,5 +1,5 @@
 ---
-- hosts: playbook1
+- hosts: all
   vars:
   - aaa2: "{{aaa|default('11')}}"
   tasks:
