@@ -1,1 +1,1 @@
-ls -l
+echo hi assaf
