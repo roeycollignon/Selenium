@@ -1,0 +1,9 @@
+- hosts: all
+  vars:
+  - v: "placeholder"
+  tasks:
+  - name: A
+    win_command: whoami
+    register: v
+  - debug: var=v.stdout_lines
+  
