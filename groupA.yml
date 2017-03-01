@@ -1,5 +1,0 @@
----
-- hosts: shnulik
-  tasks:
-  - name: PrintSomething
-    debug: msg=groupA
