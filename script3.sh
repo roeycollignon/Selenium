@@ -1,2 +1,1 @@
-echo 'roey'
-ls
+echo 'Hey!!'
