@@ -1,8 +1,0 @@
----
-- hosts: alfred
-  vars:
-  - aaa: "groupB"
-  tasks:
-  - name: PrintSomething
-    debug: var=aaa
-
